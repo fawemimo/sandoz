@@ -1,0 +1,160 @@
+
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #02313d;
+}
+.navbar {
+    background-color: #011d24;
+    padding: 10px;
+    margin: 0;
+    height: 2em;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+   
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+
+  .title{
+    color: white;
+    margin-top: -1px;
+    margin-right:62em;
+    /* margin-bottom: 5em; */
+  }
+
+
+  .div-title{
+    margin-left: -20em;
+  }
+
+
+.head-left{
+    margin-left: 6em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter{
+    width: 1.5em;
+}
+
+
+.head-right{
+
+
+    margin-right: 10em;
+}
+
+
+.input{
+    margin-top: 20px;
+    width: 20em;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #80808029;
+    outline: none;
+    border-width: 1px;
+    box-shadow: 1px 1px 1px #e7e7e7;
+    margin-right: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.line{
+    width: 80%;
+    background-color: hsl(0, 100%, 97%);
+}
+
+.section{
+    margin-top: 3em;
+}
+
+.container {
+    /* margin-top: -2em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .box {
+    width: 20em;
+    height: 15em;
+    /* background-color: white; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px rgb(224, 217, 217);
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.23);
+
+    
+  }
+  
+
+  .btn{
+    /* margin-top: -11em; */
+
+    transform: translateY(-100%);
+    background-color: rgb(25, 25, 223);
+    height: 51px;
+    border-radius: 30px;
+    width: 15em;
+    border: rgb(77, 77, 228);
+    color: white;
+    margin-top: -34px;
+  }
+
+  .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
